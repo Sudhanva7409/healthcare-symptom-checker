@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+```
+
+4. Click **"Commit new file"**
+
+### Step 5: Create .env.example File (Template)
+
+1. Click **"Add file"** → **"Create new file"**
+2. Name it: `.env.example`
+3. Add this content:
+```
+GROQ_API_KEY=your_groq_api_key_here
